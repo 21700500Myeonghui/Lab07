@@ -28,7 +28,7 @@ public class YearToCentury{
 	 */
 	public void yearInput(int year)
 	{
-		this.year=year;//put the parameter year into the member variable year, 'This' is a reference to the object itself
+		this.year=year;//put the parameter year into the member variable year, 'this' is a reference to the object itself
 	}
 
 	/**
