@@ -21,7 +21,7 @@ public class YearToCentury{
 		year=0;//put 0 in year
 		century=0;//put 0 in century
 	}
-	
+
 	/**
 	 * This is a method to put the local variable year into the member variable year.
 	 * @param year, it is integer type
@@ -30,7 +30,7 @@ public class YearToCentury{
 	{
 		this.year=year;//put the parameter year into the member variable year, 'This' is a reference to the object itself
 	}
-	
+
 	/**
 	 * This is a method for calculating century
 	 */
@@ -38,26 +38,26 @@ public class YearToCentury{
 	{
 		century=((year-1)/100)+1;//put value of the year that is a member variable minus one hundred times plus one in member variable century
 	}
-	
+
 	/**
 	 * This is main method that starts our program.
 	 * @param args, String arrays, called args, can be received as the method's factor values.
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 		int year;//Create integer type local variable year
-		
+
 		Scanner keyboard = new Scanner(System.in);//Create an object of the Scanner class
-		
+
 		YearToCentury ytc = new YearToCentury();//Instantiate of an object
-		
+
 		System.out.println("year input:");//Outputs the string literal "year input:"
 		year=keyboard.nextInt();//Take one integer type from the keyboard and place it in the local variable year
-		
+
 		ytc.yearInput(year);//calling method yearInput(int year) in ytc
 		ytc.calculateCentury();//calling method calculateCentury() in ytc
-		
+
 		System.out.println(ytc.year+" is "+ytc.century+" century");//Outputs "<the value of member variable year in ytc> is <the value of member variable century in ytc> century"
 		keyboard.close();//Close Scanner object
 	}
