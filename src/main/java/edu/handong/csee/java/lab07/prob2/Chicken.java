@@ -103,7 +103,7 @@ public class Chicken {
 		Chicken menu2 = new Chicken("Honey_mustard",16000.00,5);//Instantiate of an object, initialization name to "Honey_mustard", price to 16000.00, and stars to 5
 		Chicken menu3 = new Chicken("Spicey_chicken",16000.00,1);//Instantiate of an object, initialization name to "Spicey_chicken", price to 16000.00, and stars to 1
 
-		menu1.set_stars(3);//calling method set_stars(int stars) in menu1, Send 3 as value of the parameter at this time.
+		menu1.set_stars(3);//calling method set_stars(int stars) in menu1, Send 3 as value of the parameter at this time
 		menu2.set_stars(4);//calling method set_stars(int stars) in menu2, Send 4 as value of the parameter at this time.
 		menu3.set_stars(1);//calling method set_stars(int stars) in menu3, Send 1 as value of the parameter at this time.
 

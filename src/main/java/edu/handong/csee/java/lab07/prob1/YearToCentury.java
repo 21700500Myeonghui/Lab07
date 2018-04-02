@@ -5,7 +5,8 @@ import java.util.Scanner;//importing a package, java.util.Scanner. A package is 
 /**
  * This class defines a YearToCentury object
  * The YearToCentury class has year, century members
- * The YearToCentury class has YearToCentury(), yearInput(), calculateCentury(), main() methods
+ * The YearToCentury class has yearInput(), calculateCentury(), main() methods
+ * this class has a constructor
  * @author Lee MyeongHui
  * @version java version "9.0.4" 
  */
