@@ -63,4 +63,4 @@ public class YearToCentury{
 		keyboard.close();//Close Scanner object
 	}
 
-}
+} 
